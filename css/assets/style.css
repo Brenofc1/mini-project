@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background-color: rgb(48, 102, 65);
+    background-color: lightblue;
   }
   
   h2 {
@@ -14,9 +14,9 @@ header {
   
   /* List items in navigation bar */
   li {
-    display: inline;
-    font-size: 30px;
-    padding: 20px 
+    /* TODO: Add your code here */
+    list-style-type: none;
+    font-size: 40px;
   }
   
   /* Boxes */
@@ -46,4 +46,3 @@ header {
     /* TODO: Add your code here */
     display: block;
   }
-  
