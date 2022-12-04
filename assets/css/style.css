@@ -2,7 +2,7 @@
 header {
     width: 100%;
     background-color: rgb(48, 102, 65);
-    outline: #dcb291 solid 10px;
+    border-bottom: 10px solid #dcb291;
   }
     
   ul {
@@ -26,14 +26,45 @@ header {
       padding: 14px 16px;
       text-decoration: none; 
   }
-/* main webpage ----------------------------------------*/
+  
+  /* section comming soon ------------------------------------------*/
+
   h1 {
     text-align: center;
     font-size: 50px;
-    
   }
-  
-  /* section comming soon ------------------------------------------*/
+
+  .box-0{
+    border-style: solid;
+    width: 600px;
+    background: #484544;
+    margin: 5% auto;
+    padding: 30px 0;border-style: solid;
+    border-width: 10px;
+    border:none;
+  }
+
+  .box-1{
+    border-style: solid;
+    width: 500px;
+    background: #484544;
+    margin: 5% auto;
+    padding: 25px 0;border-style: solid;
+    border-width: 10px;
+    border-color: #f7e7d1;
+  }
+
+  .box-2{
+    border-style: solid;
+    width: 400px;
+    background: #484544;
+    margin: 5% auto;
+    padding: 20px 0;border-style: solid;
+    border-width: 10px;
+    border-color: #0a4e20;
+
+  }
+
   .comming-soon{
     width: 300px;
     background: #484544;
@@ -48,9 +79,15 @@ header {
     text-align: center;
     margin-bottom: 40px;
     font-size: 30px;
-    color: #dcb291;
+    color: #f6f4f2;
     border-style: solid;
-    border-color: rgb(6, 54, 13);
+    width: 200px;
+    background: #484544;
+    margin: 5% auto;
+    padding: 10px 0;border-style: solid;
+    border-width: 5px;
+    border-color: #012c02;
+    
   }
 
   p{
@@ -63,26 +100,39 @@ header {
 /* section Contact me-----------------------------*/
 .box-contact{
   width: 100%;
-  background-color: #dcb291;
-  height:350px;
+  background-color: #eed8c8;
+  border-top: 5px solid #dcb291;
+  margin-top: 200px;
+  margin-bottom: -97px;
+  padding-bottom: 10px;
+}
+.border {
+  border-style: solid;
+  border: 2px solid #dcb291;
+  border-radius: 12px;
+  border-width: 5px;
+  
 }
 
 .log-box{
 	width: 600px;
 	margin: 5% auto;
-	
-}
-h2{
-	text-align: center;
-	margin-bottom: 40px;
-  font-size: 30px;
   
 }
+
+h2{
+	text-align: center;
+  margin-top: -100px;
+	margin-bottom: 10px;
+  font-size: 60px;
+  padding-top: 5px;
+  position:
+}
+
 .input-user{
 	margin: 20px auto;
 	width: 80%;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 2px;
   font-size: 30px;
   color: #414143;
 }
@@ -90,11 +140,9 @@ h2{
 	width: 90%;
 	border: none;
 	outline: none;
-	background:#fff;
-	color: #fff;
+	
 }
 	
-
 .send-btn{
 	text-decoration: none;
 	color: #fff;
@@ -110,30 +158,16 @@ h2{
 	outline: none;
 }
 
-.text-box{
-	width: 100%;
-	text-align: center;
-	padding: 60px 0;
-  
-}
-.text-box h4{
-	color: #fff;
-	margin-bottom: 25px;
-	margin-top: 20px;
-	font-weight: 600;
-}
 /* footer section ------------------------*/
+
 h6 {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   display: block;
 }
 
 .footer{
 	text-align: center;
   background-color: rgb(48, 102, 65);
-  padding: 10px;
-	margin-bottom: 25px;
-	margin-top: 20px;
-	
+  padding: 2px;
 }
