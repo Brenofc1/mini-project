@@ -1,48 +1,139 @@
+/* Header config */
 header {
     width: 100%;
-    background-color: lightblue;
+    background-color: rgb(48, 102, 65);
+    outline: #dcb291 solid 10px;
   }
-  
-  h2 {
-    text-align: left;
-  }
-  
+    
   ul {
     text-align: right;
-    color: #ffffff;
+    height: 100px;
   }
   
-  /* List items in navigation bar */
+  /* List items in navigation bar ----------------------*/
   li {
-    /* TODO: Add your code here */
-    list-style-type: none;
-    font-size: 40px;
+    font-size: 30px;
+    display:inline;
+    padding: 10px;
+    color: beige;
+    float:right;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; 
+  }
+/* main webpage ----------------------------------------*/
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    
   }
   
-  /* Boxes */
-  img {
-    /* TODO: Add your code here */
-    margin: 0 auto;
-    display: block;
+  /* section comming soon ------------------------------------------*/
+  .comming-soon{
+    width: 300px;
+    background: #484544;
+    margin: 5% auto;
+    padding: 60px 0;border-style: solid;
+    border-width: 10px;
+    border-color: #dcb291;
+    
   }
+
+  h3{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #dcb291;
+    border-style: solid;
+    border-color: rgb(6, 54, 13);
+  }
+
+  p{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #484544;
+  }
+
+/* section Contact me-----------------------------*/
+.box-contact{
+  width: 100%;
+  background-color: #dcb291;
+  height:350px;
+}
+
+.log-box{
+	width: 600px;
+	margin: 5% auto;
+	
+}
+h2{
+	text-align: center;
+	margin-bottom: 40px;
+  font-size: 30px;
   
-  #item-1 {
-    background-color: #e0115f;
-    display: inline;
-  }
+}
+.input-user{
+	margin: 20px auto;
+	width: 80%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  font-size: 30px;
+  color: #414143;
+}
+.input-user input{
+	width: 90%;
+	border: none;
+	outline: none;
+	background:#fff;
+	color: #fff;
+}
+	
+
+.send-btn{
+	text-decoration: none;
+	color: #fff;
+	background:#414143;
+	cursor: pointer;
+  font-size: 16px;
+  padding: 10px 0;
+	border: 1px solid #fff;
+	cursor: pointer;
+  margin: 40px auto 20px;
+	width: 30%;
+	display: block;
+	outline: none;
+}
+
+.text-box{
+	width: 100%;
+	text-align: center;
+	padding: 60px 0;
   
-  #item-2 {
-    background-color: #0000ff;
-    display: inline;
-  }
-  
-  #item-3 {
-    background-color: #999900;
-    display: inline;
-  }
-  
-  /* Box 3 */
-  #image-3 {
-    /* TODO: Add your code here */
-    display: block;
-  }
+}
+.text-box h4{
+	color: #fff;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+/* footer section ------------------------*/
+h6 {
+  color: #fff;
+  font-size: 20px;
+  display: block;
+}
+
+.footer{
+	text-align: center;
+  background-color: rgb(48, 102, 65);
+  padding: 10px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	
+}
