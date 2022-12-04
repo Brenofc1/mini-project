@@ -3,6 +3,8 @@ header {
     width: 100%;
     background-color: rgb(48, 102, 65);
     border-bottom: 10px solid #dcb291;
+    position: fixed;
+    top: 0;
   }
     
   ul {
@@ -29,9 +31,11 @@ header {
   
   /* section comming soon ------------------------------------------*/
 
+
   h1 {
     text-align: center;
     font-size: 50px;
+    padding-top: 200px;
   }
 
   .box-0{
